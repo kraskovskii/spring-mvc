@@ -20,5 +20,9 @@ public class HelloController {
 		model.addAttribute("messages", messages);
 		return "index";
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 080f54f (v1)
 }
