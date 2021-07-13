@@ -2,7 +2,6 @@ package service;
 
 import model.Car;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +18,5 @@ public class CarService {
         cars.add(new Car("Vaz", "Niva", 2003));
         return cars;
     }
-
-
 }
 
