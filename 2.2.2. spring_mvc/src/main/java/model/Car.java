@@ -22,12 +22,16 @@ public class Car {
         return model;
     }
 
+    public String getSeries() {
+        return series;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
     @Override
     public String toString() {
-        return "Car{" +
-                "model='" + model + '\'' +
-                ", series='" + series + '\'' +
-                ", year=" + year +
-                '}';
+        return "model= " + model + ", series= " + series + ", year= " + year;
     }
 }
